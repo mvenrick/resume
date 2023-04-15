@@ -23,7 +23,7 @@ body {
     /* example padding, font-size, background, etc */
     padding: 10px;
     font-size: 20px;
-    background-color: #82e0ec;
+    background-color: #b7ebf2;
 }
 
 .second {
@@ -79,7 +79,8 @@ img {
     margin-left: 20%;
 }
 
-#profile {
+#profile,
+#codepen {
     height: 175px;
     width: 175px;
     margin-left: 20%;
