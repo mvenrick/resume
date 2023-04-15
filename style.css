@@ -29,12 +29,31 @@ body {
 .second {
     height: 100%;
     width: 100%;
-
-    /* example padding, font-size, background, etc */
     padding: 10px;
     font-size: 20px;
     background-color: #fffcf5;
 }
+
+span {
+    background-color: rgb(11, 11, 11);
+    color: rgb(191, 240, 167);
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border: solid rgb(252, 254, 254) 2px;
+    display: inline-block;
+}
+
+a {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(59, 40, 99)
+}
+
+a:hover {
+    color: rgb(226, 162, 246)
+}
+
 
 img {
     border-radius: 50%;
@@ -53,7 +72,8 @@ img {
     margin-left: 20%;
 }
 
-#front-end {
+#front-end,
+#back-end {
     height: 200px;
     width: 200px;
     margin-left: 20%;
