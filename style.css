@@ -61,30 +61,38 @@ img {
 }
 
 #headshot {
-    height: 225px;
-    width: 225px;
+    height: 100px;
+    width: 100px;
     margin-left: 12%;
 }
 
 #rpi {
-    height: 185px;
-    width: 185px;
+    height: 100px;
+    width: 100px;
     margin-left: 20%;
 }
 
 #front-end,
 #back-end {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     margin-left: 20%;
 }
 
 #profile,
 #codepen {
-    height: 175px;
-    width: 175px;
+    height: 100px;
+    width: 100px;
     margin-left: 20%;
-    margin-top: 30px;
+    /* margin-top: 30px; */
+    transition: all 2s;
+}
+
+#codepen:hover,
+#profile:hover {
+    height: 100px;
+    width: 100px;
+    transition-timing-function: ease;
 }
 
 .card {
